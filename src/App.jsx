@@ -55,18 +55,18 @@ export default function App() {
     <div>
       <div className="btn">
         <button
-          className="option--btn"
+          className="border-none"
           onClick={() => setActiveFilter("completed")}
         >
           Completed
         </button>
         <button
-          className="option--btn"
+          className="border-none"
           onClick={() => setActiveFilter("not-completed")}
         >
           Not Completed
         </button>
-        <button className="option--btn" onClick={() => setActiveFilter("all")}>
+        <button className="border-none" onClick={() => setActiveFilter("all")}>
           All
         </button>
       </div>
